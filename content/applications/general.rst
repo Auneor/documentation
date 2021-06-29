@@ -15,6 +15,7 @@ General
     general/calendars
     general/in_app_purchase
     general/unsplash
+    general/product_images
 
 **Odoo** is a suite of open source business apps that cover all your company needs: :doc:`CRM
 <sales/crm>`, :doc:`eCommerce <websites/ecommerce>`, :doc:`accounting <finance/accounting>`,
