@@ -448,11 +448,6 @@ header.o_main_header {
                     margin: -#{$margin-l} -#{$margin-l} $margin-l;
                     padding: $padding-l $padding-l;
                 }
-
-                .btn-primary {
-                    background-color: #00A09D;
-                    border-color: #00A09D;
-                }
             }
             .row:first-of-type h2.border-top {
                 @include media-breakpoint-up(lg) {
@@ -981,5 +976,18 @@ footer {
             margin-bottom: 1.5rem;
         }
 
+    }
+}
+
+section#applications {
+    div.toctree-wrapper > ul {
+        columns: 3;
+        column-gap: 40px;
+        > li {
+            column-span: 1;
+        }
+        a.reference.internal {
+            margin-top: 0;
+        }
     }
 }

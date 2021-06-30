@@ -1,8 +1,19 @@
 :nosearch:
+:show-content:
+:hide-page-toc:
+:show-toc:
 
 =========
 eCommerce
 =========
+
+Run a modern open source online store with Odoo eCommerce. Learn how to sell online, 
+promote products and increase your average cart sizes in this documentation.
+
+.. seealso::
+   - `Website Tutorials <https://www.odoo.com/slides/website-25>`_
+   - `eCommerce Tutorials <https://www.odoo.com/slides/ecommerce-26>`_
+
 
 .. toctree::
    :titlesonly:

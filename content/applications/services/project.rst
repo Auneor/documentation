@@ -1,8 +1,14 @@
 :nosearch:
+:show-content:
+:hide-page-toc:
+:show-toc:
 
 =======
 Project
 =======
+
+.. seealso::
+   - `Project Management Tutorials <https://www.odoo.com/slides/project-and-timesheets-21>`_
 
 .. toctree::
    :titlesonly:

@@ -1,6 +1,6 @@
-========
-Unsplash
-========
+==================
+Configure Unsplash
+==================
 
 Generate an Unsplash access key
 ===============================

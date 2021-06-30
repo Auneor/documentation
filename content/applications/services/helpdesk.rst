@@ -1,8 +1,14 @@
 :nosearch:
+:show-content:
+:hide-page-toc:
+:show-toc:
 
 ========
 Helpdesk
 ========
+
+.. seealso::
+   - `Helpdesk Tutorials <https://www.odoo.com/slides/helpdesk-51>`_
 
 .. toctree::
    :titlesonly:
