@@ -54,10 +54,6 @@ header.o_main_header {
         height: $o-header-height;
         padding: 0 $padding-m;
     }
-    @include media-breakpoint-up(xl) {
-        padding: 0 $padding-l;
-    }
-
 
     .o_logo_wrapper {
         > .o_logo {
@@ -212,8 +208,6 @@ header.o_main_header {
     }
     @include media-breakpoint-up(xl) {
         width: $o-side-nav-width;
-        padding-top: $padding-l;
-        padding-left: $padding-l;
     }
 
     &.show {
