@@ -90,10 +90,13 @@ Odoo
 Automatically get your product images in Odoo
 =============================================
 
-#. Go to :menuselection:`Inventory --> Products --> Products` or Inventory --> Products -->
-   Product Variants.
+The action to automatically get your product images in Odoo appears in any Products or Product
+Variants list view. Here is a step-by-step guide from the Inventory app.
 
-#. Select the products that needs an image.
+#. Go to :menuselection:`Inventory --> Products --> Products` or :menuselection:`Inventory -->
+   Products --> Product Variants`.
+
+#. On the list view, select the products that needs an image.
 
    .. important::
       Only the 10K first products or product variants selected will be processed.
@@ -103,10 +106,9 @@ Automatically get your product images in Odoo
       If you select a product that has one or more variants from the Products view, each variant
       matching the previous criteria will be processed.
 
-#. In the action menu, select 
+#. In the action menu, select the option *Get Pictures from Google Images* and validate by clicking on *Get picture*.
 
-   ..
-      TODO VCR: complete the step by step in the wizard
+#. You should see your images appearing in the next few minutes.
 
    .. note::
       Images are fetched as a background job, so you can continue doing your work while
@@ -118,8 +120,26 @@ Automatically get your product images in Odoo
       with a more important weight (e.g. payment post-processing job) will be executed in priority
       and might extend the processing time.
 
-A walkthrough of possible errors
-================================
+Possible errors
+===============
+
+Most of the errors that you might encounter are very explicit and should be easy to resolve.
+However, here are a few tips on what you can do in those cases.
+
++-----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+|                            UserError                            |                                                                  Solution                                                                  |
++=================================================================+============================================================================================================================================+
+| Another task is already scheduled to pick the images on Google. |                                                                                                                                            |
++-----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| You didn't configure properly your API Key or Search Engine ID. |                                                                                                                                            |
++-----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| There isn't any product without a picture and with a barcode.   |                                                                                                                                            |
++-----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| Custom Search API is not enabled in your Google project.        |                                                                                                                                            |
++-----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| Your API Key or your Search Engine ID is incorrect.             | Check if you properly configured the **API Key** and/or the **Search Engine ID** in Odoo. A common mistake is to invert these variables.   |
++-----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+
    ..
       TODO VCR: complete a walkthrough all the possible error and the quickest way to fix them
 
