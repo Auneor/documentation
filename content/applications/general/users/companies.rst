@@ -50,7 +50,7 @@ company only. To do so, on their forms, choose between:
 Employees' access
 =================
 
-Once companies are created, manage your employees' :doc:`Access Rights <users/access_rights>`
+Once companies are created, manage your employees' :doc:`Access Rights <access_rights>`
 for *Multi Companies*.
 
 .. image:: multi_companies/access_rights_multi_companies.png
@@ -85,14 +85,14 @@ Inter-Company Transactions
 First, make sure each one of your companies is properly set in relation to:
 
 - :doc:`Chart of Accounts
-  <../finance/accounting/getting_started/initial_configuration/chart_of_accounts>`
-- :doc:`Taxes <../finance/accounting/taxation/taxes/default_taxes>`
-- :doc:`Fiscal Positions <../finance/accounting/taxation/taxes/fiscal_positions>`
-- :doc:`Journals <../finance/accounting/bank/setup/bank_accounts>`
+  </applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts>`
+- :doc:`Taxes </applications/finance/accounting/taxation/taxes/default_taxes>`
+- :doc:`Fiscal Positions </applications/finance/accounting/taxation/taxes/fiscal_positions>`
+- :doc:`Journals </applications/finance/accounting/bank/setup/bank_accounts>`
 - :doc:`Fiscal Localizations
-  <../finance/accounting/fiscal_localizations/overview/fiscal_localization_packages>`
-- :doc:`Pricelists <../sales/sales/products_prices/prices/pricing>`
-- :doc:`Warehouses <../inventory_and_mrp/inventory/management/warehouses/warehouse_creation>`
+  </applications/finance/accounting/fiscal_localizations/overview/fiscal_localization_packages>`
+- :doc:`Pricelists </applications/sales/sales/products_prices/prices/pricing>`
+- :doc:`Warehouses </applications/inventory_and_mrp/inventory/management/warehouses/warehouse_creation>`
 
 Now, activate the *Inter-Company Transactions* option under *Settings*. With the respective company
 *activated* and *selected*, choose if you would like operations between companies to be synchronized
@@ -132,4 +132,4 @@ at an invoice/bills level or at a sales/purchase orders level.
 
 .. seealso::
    - :doc:`Multi-company Guidelines </developer/howtos/company>`
-   - :doc:`../finance/accounting/others/multicurrencies/how_it_works`
+   - :doc:`applications/finance/accounting/others/multicurrencies/how_it_works`

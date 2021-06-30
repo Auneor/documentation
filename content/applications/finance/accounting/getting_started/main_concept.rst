@@ -128,7 +128,7 @@ average price, LIFO (for countries allowing it) and FIFO.
 
 .. seealso::
    - :doc:`View impact of the valuation method on your transactions
-     </applications/finance/inventory_and_mrp/inventory/management/reporting/inventory_valuation_config>`
+     </applications/inventory_and_mrp/inventory/management/reporting/inventory_valuation_config>`
 
 Easy retained earnings
 ======================

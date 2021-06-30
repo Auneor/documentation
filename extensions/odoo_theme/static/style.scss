@@ -285,15 +285,6 @@ header.o_main_header {
                 display: inline-block;
                 padding: .4rem 0;
                 color: inherit;
-                opacity: .75;
-
-                &.current, &:hover {
-                    opacity: 1;
-                }
-            }
-
-            > .o_toc_entry_wrapper i {
-                opacity: .75;
             }
 
             &:not(.toctree-l1) {
@@ -326,7 +317,6 @@ header.o_main_header {
                 }
                 > a , > .o_toc_entry_wrapper a, > .o_toc_entry_wrapper i {
                     font-weight: $fw_bold;
-                    opacity: 1;
                 }
             }
         }
