@@ -1,5 +1,3 @@
-:show-content:
-
 ========================
 Main Accounting Concepts
 ========================

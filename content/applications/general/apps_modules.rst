@@ -1,5 +1,3 @@
-:show-content:
-
 Apps and modules
 ================
 

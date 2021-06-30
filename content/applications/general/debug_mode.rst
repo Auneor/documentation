@@ -1,5 +1,3 @@
-:show-content:
-
 ==============
 Developer Mode
 ==============

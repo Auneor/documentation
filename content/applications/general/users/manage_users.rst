@@ -1,5 +1,3 @@
-:show-content:
-
 ============
 Manage Users
 ============
@@ -25,7 +23,7 @@ Go to :menuselection:`Settings --> Manage Users` and click on *Create*.
    :alt: View of the settings page emphasizing the manage users field in Odoo
 
 | Fill in the form with the needed information. Under the tab
-  :doc:`Access Rights <users/access_rights>` choose the group within each application the user can
+  :doc:`Access Rights <access_rights>` choose the group within each application the user can
   have access to.
 | The list of applications shown is based on the applications installed on the database.
 
